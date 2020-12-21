@@ -1,0 +1,1362 @@
+{
+    "auto_start": false,
+    "name": "Final_Cyber",
+    "project_id": "e337e6fa-30bc-4e56-b3a2-07e289d17d16",
+    "revision": 4,
+    "show_port_names": true,
+    "topology": {
+        "links": [
+            {
+                "description": "Link from IOU1 port Ethernet0/0 to PC1 port Ethernet0",
+                "destination_node_id": 40,
+                "destination_port_id": 445,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 54.52889287813858,
+                    "y": -3.8875407684288064
+                },
+                "id": 1,
+                "source_node_id": 39,
+                "source_port_id": 429,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 3.4711071218614222,
+                    "y": 56.887540768428806
+                }
+            },
+            {
+                "description": "Link from FortiGate 5.6.1-2 port Port1 to Firefox 31.1.1~2-2 port Ethernet0",
+                "destination_node_id": 4,
+                "destination_port_id": 22,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -7.499560931204314,
+                    "y": 29.312582522499184
+                },
+                "id": 2,
+                "source_node_id": 2,
+                "source_port_id": 11,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Port1",
+                    "x": 72.99956093120431,
+                    "y": 22.187417477500816
+                }
+            },
+            {
+                "description": "Link from IOU1 port Ethernet0/1 to PC2 port Ethernet0",
+                "destination_node_id": 41,
+                "destination_port_id": 446,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 10.311992150990832,
+                    "y": -3.7820117735137444
+                },
+                "id": 3,
+                "source_node_id": 39,
+                "source_port_id": 430,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1",
+                    "x": 47.68800784900918,
+                    "y": 56.782011773513744
+                }
+            },
+            {
+                "description": "Link from FortiGate 5.6.1-1 port Port1 to Firefox 31.1.1~2-1 port Ethernet0",
+                "destination_node_id": 3,
+                "destination_port_id": 21,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 72.48998513584115,
+                    "y": 30.39503566141414
+                },
+                "id": 4,
+                "source_node_id": 43,
+                "source_port_id": 462,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Port1",
+                    "x": -6.989985135841152,
+                    "y": 21.10496433858586
+                }
+            },
+            {
+                "description": "Link from FortiGate 5.6.1-1 port Port3 to FortiGate 5.6.1-2 port Port3",
+                "destination_node_id": 2,
+                "destination_port_id": 13,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Port3",
+                    "x": -6.966851668173874,
+                    "y": 23.62811785021455
+                },
+                "id": 5,
+                "source_node_id": 43,
+                "source_port_id": 464,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Port3",
+                    "x": 72.96685166817387,
+                    "y": 20.37188214978545
+                }
+            },
+            {
+                "description": "Link from IOU2 port Ethernet0/0 to PC3 port Ethernet0",
+                "destination_node_id": 36,
+                "destination_port_id": 412,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 35.28393051396155,
+                    "y": -10.403004033448838
+                },
+                "id": 6,
+                "source_node_id": 44,
+                "source_port_id": 472,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0",
+                    "x": 22.71606948603845,
+                    "y": 63.40300403344884
+                }
+            },
+            {
+                "description": "Link from R2 port FastEthernet1/0 to FortiGate 5.6.1-2 port Port2",
+                "destination_node_id": 2,
+                "destination_port_id": 12,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Port2",
+                    "x": 34.95295091888505,
+                    "y": 61.95229633836365
+                },
+                "id": 7,
+                "source_node_id": 37,
+                "source_port_id": 425,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 45.1891847048459,
+                    "y": -25.023364150229128
+                }
+            },
+            {
+                "description": "Link from IOU2 port Ethernet0/1 to R2 port FastEthernet0/0",
+                "destination_node_id": 37,
+                "destination_port_id": 421,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 35.39569162911787,
+                    "y": 61.92819381863115
+                },
+                "id": 8,
+                "source_node_id": 44,
+                "source_port_id": 473,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1",
+                    "x": 23.10430837088213,
+                    "y": -16.42819381863115
+                }
+            },
+            {
+                "description": "Link from IOU1 port Ethernet0/2 to R1 port FastEthernet0/0",
+                "destination_node_id": 42,
+                "destination_port_id": 455,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 28.88403395657977,
+                    "y": 61.78767175306205
+                },
+                "id": 9,
+                "source_node_id": 39,
+                "source_port_id": 431,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2",
+                    "x": 29.61596604342023,
+                    "y": -16.28767175306205
+                }
+            },
+            {
+                "description": "Link from FortiGate 5.6.1-1 port Port2 to R1 port FastEthernet1/0",
+                "destination_node_id": 42,
+                "destination_port_id": 459,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 30.548476901184785,
+                    "y": -17.924804752133426
+                },
+                "id": 10,
+                "source_node_id": 43,
+                "source_port_id": 463,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Port2",
+                    "x": 35.451523098815215,
+                    "y": 61.92480475213341
+                }
+            },
+            {
+                "description": "Link from R1 port FastEthernet1/1 to R2 port FastEthernet1/1",
+                "destination_node_id": 37,
+                "destination_port_id": 426,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": -6.770045610267665,
+                    "y": 26.28292798879805
+                },
+                "id": 11,
+                "source_node_id": 42,
+                "source_port_id": 460,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 72.77004561026766,
+                    "y": 17.71707201120195
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "description": "QEMU VM",
+                "id": 2,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "FortiGate 5.6.1-2",
+                    "x": -44.0,
+                    "y": -25.0
+                },
+                "linked_clone": true,
+                "port_name_format": "Port{port1}",
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Firefox 31.1.1~2-2 on port Ethernet0",
+                        "id": 11,
+                        "link_id": 2,
+                        "name": "Port1",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to R2 on port FastEthernet1/0",
+                        "id": 12,
+                        "link_id": 7,
+                        "name": "Port2",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to FortiGate 5.6.1-1 on port Port3",
+                        "id": 13,
+                        "link_id": 5,
+                        "name": "Port3",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 14,
+                        "name": "Port4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 15,
+                        "name": "Port5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 16,
+                        "name": "Port6",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 17,
+                        "name": "Port7",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 7,
+                        "id": 18,
+                        "name": "Port8",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 8,
+                        "id": 19,
+                        "name": "Port9",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 9,
+                        "id": 20,
+                        "name": "Port10",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 10,
+                    "boot_priority": "c",
+                    "console": 5001,
+                    "console_type": "telnet",
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "FGT_VM64_KVM-v5-build1484-FORTINET.out.kvm.qcow2",
+                    "hda_disk_image_md5sum": "6f76d1207b9f6cb724f8034f57711705",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "empty30G.qcow2",
+                    "hdb_disk_image_md5sum": "3411a599e822f2ac6be560a26405821a",
+                    "hdb_disk_interface": "virtio",
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_interface": "ide",
+                    "legacy_networking": false,
+                    "mac_address": "00:7d:16:d8:3e:00",
+                    "name": "FortiGate 5.6.1-2",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 1024,
+                    "usage": "Default username is admin, no password is set."
+                },
+                "server_id": 2,
+                "symbol": ":/symbols/firewall.svg",
+                "type": "QemuVM",
+                "vm_id": "d3a100aa-ebf7-4cef-9154-271e8ed7d83e",
+                "x": -2.1005050633883435,
+                "y": -221.92893218813467
+            },
+            {
+                "description": "QEMU VM",
+                "id": 3,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Firefox 31.1.1~2-1",
+                    "x": -52.5,
+                    "y": -25.0
+                },
+                "linked_clone": true,
+                "port_name_format": "Ethernet{0}",
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to FortiGate 5.6.1-1 on port Port1",
+                        "id": 21,
+                        "link_id": 4,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "e1000",
+                    "adapters": 1,
+                    "boot_priority": "c",
+                    "console": 5900,
+                    "console_type": "vnc",
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "linux-tinycore-linux-6.4-firefox-33.1.1-2.img",
+                    "hda_disk_image_md5sum": "8db0d8dc890797cc335ceb8aaf2255f0",
+                    "hda_disk_interface": "ide",
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_interface": "ide",
+                    "legacy_networking": false,
+                    "mac_address": "00:7d:16:6e:a5:00",
+                    "name": "Firefox 31.1.1~2-1",
+                    "options": "-vga std -usbdevice tablet -nographic",
+                    "platform": "i386",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-i386",
+                    "ram": 256
+                },
+                "server_id": 2,
+                "type": "QemuVM",
+                "vm_id": "852eb366-8692-4bd2-abd9-2176727f6ea5",
+                "x": -373.62698372208104,
+                "y": -226.8940110268397
+            },
+            {
+                "description": "VPCS device",
+                "id": 36,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC3",
+                    "x": 12.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to IOU2 on port Ethernet0/0",
+                        "id": 412,
+                        "link_id": 6,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5008,
+                    "name": "PC3",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 2,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "0ce0f58a-567c-413f-9890-d056e0660c23",
+                "x": 5.683766184073562,
+                "y": 189.7031021678297
+            },
+            {
+                "description": "Router c7200",
+                "dynamips_id": 3,
+                "id": 37,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R2",
+                    "x": 17.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 3,
+                        "id": 422,
+                        "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to FortiGate 5.6.1-2 on port Port2",
+                        "id": 425,
+                        "link_id": 7,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to R1 on port FastEthernet1/1",
+                        "id": 426,
+                        "link_id": 11,
+                        "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 427,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to IOU2 on port Ethernet0/1",
+                        "id": 421,
+                        "link_id": 8,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 423,
+                        "name": "FastEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 424,
+                        "name": "FastEthernet2/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 413,
+                        "name": "Serial5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 414,
+                        "name": "Serial5/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 415,
+                        "name": "Serial5/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 416,
+                        "name": "Serial5/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 417,
+                        "name": "Serial5/4",
+                        "port_number": 4
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 418,
+                        "name": "Serial5/5",
+                        "port_number": 5
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 419,
+                        "name": "Serial5/6",
+                        "port_number": 6
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 420,
+                        "name": "Serial5/7",
+                        "port_number": 7
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 4,
+                    "console": 5003,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
+                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
+                    "mac_addr": "ca03.0aa8.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "name": "R2",
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-2FE-TX",
+                    "slot3": "PA-GE",
+                    "slot4": "PA-GE",
+                    "slot5": "PA-8T",
+                    "sparsemem": true,
+                    "startup_config": "configs/i3_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 2,
+                "type": "C7200",
+                "vm_id": "f42c92fa-feb8-41a9-bd0f-3e326cd93be0",
+                "x": 0.9411254969542746,
+                "y": -61.59797974644665
+            },
+            {
+                "description": "IOU device",
+                "id": 39,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "IOU1",
+                    "x": -1.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to PC1 on port Ethernet0",
+                        "id": 429,
+                        "link_id": 1,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to PC2 on port Ethernet0",
+                        "id": 430,
+                        "link_id": 3,
+                        "name": "Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R1 on port FastEthernet0/0",
+                        "id": 431,
+                        "link_id": 9,
+                        "name": "Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 432,
+                        "name": "Ethernet0/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 433,
+                        "name": "Ethernet1/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 434,
+                        "name": "Ethernet1/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 435,
+                        "name": "Ethernet1/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 436,
+                        "name": "Ethernet1/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 437,
+                        "name": "Ethernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 438,
+                        "name": "Ethernet2/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 439,
+                        "name": "Ethernet2/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 440,
+                        "name": "Ethernet2/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 441,
+                        "name": "Ethernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 442,
+                        "name": "Ethernet3/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 443,
+                        "name": "Ethernet3/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 444,
+                        "name": "Ethernet3/3",
+                        "port_number": 3
+                    }
+                ],
+                "properties": {
+                    "console": 5004,
+                    "ethernet_adapters": 4,
+                    "l1_keepalives": false,
+                    "md5sum": "0086e5f41971bf35428c216a0ee6aabf",
+                    "name": "IOU1",
+                    "nvram": 128,
+                    "path": "L2-ADVENTERPRISEK9-M-15.2-IRON-20151103.bin",
+                    "ram": 256,
+                    "serial_adapters": 0,
+                    "startup_config": "startup-config.cfg",
+                    "use_default_iou_values": true
+                },
+                "server_id": 2,
+                "type": "IOUDevice",
+                "vm_id": "308f74db-24c6-4fd5-a738-1afc79a358cf",
+                "x": -193.79141392239833,
+                "y": 61.35281374238568
+            },
+            {
+                "description": "VPCS device",
+                "id": 40,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC1",
+                    "x": 12.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to IOU1 on port Ethernet0/0",
+                        "id": 445,
+                        "link_id": 1,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5002,
+                    "name": "PC1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 2,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "99ab2536-c75b-48a7-a681-15250c902976",
+                "x": -291.3010819142764,
+                "y": 192.5315292925759
+            },
+            {
+                "description": "QEMU VM",
+                "id": 4,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Firefox 31.1.1~2-2",
+                    "x": -52.5,
+                    "y": -25.0
+                },
+                "linked_clone": true,
+                "port_name_format": "Ethernet{0}",
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to FortiGate 5.6.1-2 on port Port1",
+                        "id": 22,
+                        "link_id": 2,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "e1000",
+                    "adapters": 1,
+                    "boot_priority": "c",
+                    "console": 5901,
+                    "console_type": "vnc",
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "linux-tinycore-linux-6.4-firefox-33.1.1-2.img",
+                    "hda_disk_image_md5sum": "8db0d8dc890797cc335ceb8aaf2255f0",
+                    "hda_disk_interface": "ide",
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_interface": "ide",
+                    "legacy_networking": false,
+                    "mac_address": "00:7d:16:06:bb:00",
+                    "name": "Firefox 31.1.1~2-2",
+                    "options": "-vga std -usbdevice tablet -nographic",
+                    "platform": "i386",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-i386",
+                    "ram": 256
+                },
+                "server_id": 2,
+                "type": "QemuVM",
+                "vm_id": "e528a326-7d6f-4569-a173-d9167e5606bb",
+                "x": 184.786363288515,
+                "y": -231.33766184073568
+            },
+            {
+                "description": "VPCS device",
+                "id": 41,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC2",
+                    "x": 12.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to IOU1 on port Ethernet0/1",
+                        "id": 446,
+                        "link_id": 3,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5006,
+                    "name": "PC2",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 2,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "65f82783-08f1-4e9e-86d6-7329c3da93bc",
+                "x": -110.28174593052022,
+                "y": 191.11731573020282
+            },
+            {
+                "description": "QEMU VM",
+                "id": 43,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "FortiGate 5.6.1-1",
+                    "x": -44.0,
+                    "y": -25.0
+                },
+                "linked_clone": true,
+                "port_name_format": "Port{port1}",
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Firefox 31.1.1~2-1 on port Ethernet0",
+                        "id": 462,
+                        "link_id": 4,
+                        "name": "Port1",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to R1 on port FastEthernet1/0",
+                        "id": 463,
+                        "link_id": 10,
+                        "name": "Port2",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to FortiGate 5.6.1-2 on port Port3",
+                        "id": 464,
+                        "link_id": 5,
+                        "name": "Port3",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 465,
+                        "name": "Port4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 466,
+                        "name": "Port5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 467,
+                        "name": "Port6",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 468,
+                        "name": "Port7",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 7,
+                        "id": 469,
+                        "name": "Port8",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 8,
+                        "id": 470,
+                        "name": "Port9",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 9,
+                        "id": 471,
+                        "name": "Port10",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 10,
+                    "boot_priority": "c",
+                    "console": 5000,
+                    "console_type": "telnet",
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "FGT_VM64_KVM-v5-build1484-FORTINET.out.kvm.qcow2",
+                    "hda_disk_image_md5sum": "6f76d1207b9f6cb724f8034f57711705",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "empty30G.qcow2",
+                    "hdb_disk_image_md5sum": "3411a599e822f2ac6be560a26405821a",
+                    "hdb_disk_interface": "virtio",
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_interface": "ide",
+                    "legacy_networking": false,
+                    "mac_address": "00:7d:16:3b:4f:00",
+                    "name": "FortiGate 5.6.1-1",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 1024,
+                    "usage": "Default username is admin, no password is set."
+                },
+                "server_id": 2,
+                "symbol": ":/symbols/firewall.svg",
+                "type": "QemuVM",
+                "vm_id": "fd88307d-6793-4c80-92eb-5f7f95b63b4f",
+                "x": -198.4629867976521,
+                "y": -221.40411229460642
+            },
+            {
+                "description": "IOU device",
+                "id": 44,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "IOU2",
+                    "x": -1.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to PC3 on port Ethernet0",
+                        "id": 472,
+                        "link_id": 6,
+                        "name": "Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R2 on port FastEthernet0/0",
+                        "id": 473,
+                        "link_id": 8,
+                        "name": "Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 474,
+                        "name": "Ethernet0/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 475,
+                        "name": "Ethernet0/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 476,
+                        "name": "Ethernet1/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 477,
+                        "name": "Ethernet1/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 478,
+                        "name": "Ethernet1/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 479,
+                        "name": "Ethernet1/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 480,
+                        "name": "Ethernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 481,
+                        "name": "Ethernet2/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 482,
+                        "name": "Ethernet2/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 483,
+                        "name": "Ethernet2/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 484,
+                        "name": "Ethernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 485,
+                        "name": "Ethernet3/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 486,
+                        "name": "Ethernet3/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 487,
+                        "name": "Ethernet3/3",
+                        "port_number": 3
+                    }
+                ],
+                "properties": {
+                    "console": 5005,
+                    "ethernet_adapters": 4,
+                    "l1_keepalives": false,
+                    "md5sum": "0086e5f41971bf35428c216a0ee6aabf",
+                    "name": "IOU2",
+                    "nvram": 128,
+                    "path": "L2-ADVENTERPRISEK9-M-15.2-IRON-20151103.bin",
+                    "ram": 256,
+                    "serial_adapters": 0,
+                    "startup_config": "startup-config.cfg",
+                    "use_default_iou_values": true
+                },
+                "server_id": 2,
+                "type": "IOUDevice",
+                "vm_id": "c920f735-a4a8-4c31-95ec-014e415c5239",
+                "x": 11.26955262170047,
+                "y": 59.9386001800126
+            },
+            {
+                "description": "Router c7200",
+                "dynamips_id": 4,
+                "id": 42,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R1",
+                    "x": 17.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 3,
+                        "id": 456,
+                        "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to FortiGate 5.6.1-1 on port Port2",
+                        "id": 459,
+                        "link_id": 10,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to R2 on port FastEthernet1/1",
+                        "id": 460,
+                        "link_id": 11,
+                        "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 461,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to IOU1 on port Ethernet0/2",
+                        "id": 455,
+                        "link_id": 9,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 457,
+                        "name": "FastEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 458,
+                        "name": "FastEthernet2/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 447,
+                        "name": "Serial5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 448,
+                        "name": "Serial5/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 449,
+                        "name": "Serial5/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 450,
+                        "name": "Serial5/3",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 451,
+                        "name": "Serial5/4",
+                        "port_number": 4
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 452,
+                        "name": "Serial5/5",
+                        "port_number": 5
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 453,
+                        "name": "Serial5/6",
+                        "port_number": 6
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 454,
+                        "name": "Serial5/7",
+                        "port_number": 7
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 4,
+                    "console": 5007,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
+                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
+                    "mac_addr": "ca04.0b08.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "name": "R1",
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-2FE-TX",
+                    "slot3": "PA-GE",
+                    "slot4": "PA-GE",
+                    "slot5": "PA-8T",
+                    "sparsemem": true,
+                    "startup_config": "configs/i4_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 2,
+                "type": "C7200",
+                "vm_id": "43e2b575-17e1-4bcf-963f-ff13595ee255",
+                "x": -198.46298679765206,
+                "y": -61.59797974644666
+            }
+        ],
+        "notes": [
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "10.10.10.0/30",
+                "x": -325.26911934581176,
+                "y": -288.8574311003803
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "31.181.154.0/30",
+                "x": -148.49242404917496,
+                "y": -288.85743110038044
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "20.20.20.0/30",
+                "x": 63.63961030678925,
+                "y": -288.8574311003803
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "95.102.102.0/30",
+                "x": 60.81118318204307,
+                "y": -123.39444430272826
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "95.101.101.0/30",
+                "x": -337.9970414071696,
+                "y": -129.0512985522206
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "22.122.0.4/30",
+                "x": -127.2792206135785,
+                "y": -101.96803743153544
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "vl 1001:\n172.16.16.0/30",
+                "x": 104.65180361560903,
+                "y": 51.95584412271574
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "vl 100:\n192.168.100.0/28\n\nvl 200:\n192.168.200.0/28",
+                "x": -408.70771952582436,
+                "y": 25.09797974644667
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "vl 100",
+                "x": -302.6417023478423,
+                "y": 232.9873734152916
+            },
+            {
+                "color": "#ff000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "vl 200",
+                "x": -113.1370849898476,
+                "y": 234.40158697766466
+            }
+        ],
+        "servers": [
+            {
+                "host": "192.168.179.128",
+                "id": 2,
+                "local": false,
+                "port": 3080,
+                "protocol": "http",
+                "user": "",
+                "vm": true
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.5.1"
+}
